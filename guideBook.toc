@@ -1,0 +1,10 @@
+\contentsline {chapter}{Introduction}{2}{Doc-Start}%
+\contentsline {section}{Place Holder}{2}{section*.2}%
+\contentsline {section}{Acknowledgements}{2}{section*.3}%
+\contentsline {chapter}{\numberline {1}The Crops}{4}{chapter.1}%
+\contentsline {section}{A - Lower Talus Field}{4}{section*.5}%
+\contentsline {section}{B - Middle Talus Field}{5}{section*.14}%
+\contentsline {chapter}{Index}{6}{section*.17}%
+\contentsline {section}{Routes Alphabetical}{6}{section*.19}%
+\contentsline {section}{Routes by grade}{6}{section*.20}%
+\contentsline {section}{Known First Ascents}{6}{section*.21}%

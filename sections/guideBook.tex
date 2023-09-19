@@ -1,0 +1,70 @@
+\documentclass[10pt, twoside]{report}
+ \renewcommand{\familydefault}{\sfdefault}
+\usepackage[utf8]{inputenc}
+\usepackage[a5paper,margin=0.5cm,bottom=0.5cm,top=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage[explicit]{titlesec}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pifont}
+\usepackage{framed}
+\usepackage{caption}
+\usepackage{bookmark}
+\usepackage{xcolor}
+\usepackage{supertabular}
+\usepackage{amssymb}
+\usepackage[section]{placeins}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage{changepage} 
+\usepackage{needspace}
+\usepackage[percent]{overpic}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+\usepackage{colortbl}
+\usepackage{varioref}
+
+%-------------- Formatting -------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\parindent{0pt}
+\setlength{\tabcolsep}{3pt}
+\setcounter{secnumdepth}{0} % prevents section (sub area) numbering
+\graphicspath{ {../} }
+
+\titleformat{\chapter}[display]
+  {\normalfont\color{white} \begin {shaded*}\bfseries}
+  {}
+  {0pt}
+  {\Huge#1\end{shaded*}}
+\titlespacing*{\chapter}
+  {0pt}
+  {-50pt}
+  {0pt}
+\titleformat{\section}[hang]
+  {\normalfont\color{white}}
+  {}
+  {0pt}
+  {\colorbox{\chapterColor}{\parbox{\dimexpr\columnwidth-2\fboxsep}{\Large#1}}}
+
+\newcommand{\warn}{\ooalign{$\bigtriangleup$\cr\hidewidth!\hidewidth}}
+
+%-------------- Document -------------------
+\begin{document}
+\title{The Crops}
+\date{2023-09-19}
+\maketitle
+\newcommand\chapterColor{MidnightBlue}
+
+\input{acknowledgements}
+
+\tableofcontents
+\clearpage
+\renewcommand\chapterColor{BrickRed}
+\input{The Crops}
+\renewcommand\chapterColor{MidnightBlue}
+\input{index}
+
+
+\end{document}
